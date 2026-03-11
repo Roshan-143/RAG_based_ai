@@ -1,0 +1,1796 @@
+{
+    "audio_file": "audios/6_SEO and Core Web Vitals in HTML.mp3",
+    "language": "hi",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 5.16,
+            "text": " In today's video, we will learn about Core Web Vitals and why Core Web Vitals are necessary."
+        },
+        {
+            "start": 5.16,
+            "end": 7.92,
+            "text": " Like this video and keep high energy."
+        },
+        {
+            "start": 7.92,
+            "end": 16.06,
+            "text": " The thing is that your website should be in your iPhone, iPad, Android, Surface Pro 4 devices."
+        },
+        {
+            "start": 16.06,
+            "end": 20.1,
+            "text": " Because we have to give a good experience to all the users through our website."
+        },
+        {
+            "start": 20.1,
+            "end": 28.44,
+            "text": " In this video, we will also learn that Chrome has a hidden tool called Lighthouse and how you can use it to enhance your website."
+        },
+        {
+            "start": 28.44,
+            "end": 34.04,
+            "text": " So write in the comment section, Sigma Batch OP. Let's go to the computer screen, let's roll the intro."
+        },
+        {
+            "start": 43.04,
+            "end": 48.28,
+            "text": " So guys, I have come to my computer screen and I will make a new folder called Video 6."
+        },
+        {
+            "start": 48.28,
+            "end": 54.64,
+            "text": " Video 6 and here in Video 6, I will click on VS Code as always."
+        },
+        {
+            "start": 54.64,
+            "end": 59.02,
+            "text": " And today I am going to tell you something that is very important in SEO aspect."
+        },
+        {
+            "start": 59.02,
+            "end": 63.2,
+            "text": " First of all, I want to tell you what SEO is. SEO stands for Search Engine Optimization."
+        },
+        {
+            "start": 63.2,
+            "end": 66.16,
+            "text": " If you see any website, then SEO is there."
+        },
+        {
+            "start": 66.16,
+            "end": 67.8,
+            "text": " Let's take an example of Amazon.in."
+        },
+        {
+            "start": 67.8,
+            "end": 76.44,
+            "text": " If I open Amazon.in, then Amazon.in needs to be loaded as soon as possible so that their products can come in search."
+        },
+        {
+            "start": 76.44,
+            "end": 81.14,
+            "text": " Google is a search engine. Google's responsibility is to show good pages to users."
+        },
+        {
+            "start": 81.14,
+            "end": 84.64,
+            "text": " So Google will only want to show those pages which will be fast."
+        },
+        {
+            "start": 84.64,
+            "end": 91.26,
+            "text": " Information is presented very well and along with that, there are some things that are good for the user."
+        },
+        {
+            "start": 91.26,
+            "end": 95.26,
+            "text": " For example, there are two pages from the editor. One page has told about dog food."
+        },
+        {
+            "start": 95.26,
+            "end": 97.86,
+            "text": " The other page has also told exactly about dog food."
+        },
+        {
+            "start": 97.86,
+            "end": 102.96000000000001,
+            "text": " But among these two, page 2 is very fast loaded. If it is loaded in a good way, then Google will give more preference to it."
+        },
+        {
+            "start": 102.96000000000001,
+            "end": 107.96000000000001,
+            "text": " Along with that, there are core web vitals which Google considers to rank two pages."
+        },
+        {
+            "start": 107.96000000000001,
+            "end": 115.68,
+            "text": " First of all, content is the most important. If your content is good on the page, then you can rank your website without the core web vitals."
+        },
+        {
+            "start": 115.68,
+            "end": 124.18,
+            "text": " But if you are competing with a page which has presented almost similar quality content, then your core web vitals will be seen."
+        },
+        {
+            "start": 124.18,
+            "end": 128.08,
+            "text": " If your core web vitals are good, then you will be given preference."
+        },
+        {
+            "start": 128.08,
+            "end": 131.08,
+            "text": " The first thing that comes in core web vitals is your CLS."
+        },
+        {
+            "start": 131.08,
+            "end": 134.54000000000002,
+            "text": " Look at this video which I have run on the web.dev website."
+        },
+        {
+            "start": 134.54000000000002,
+            "end": 140.5,
+            "text": " You will see that someone comes to your website and in order to cancel it, he has canceled it from the wrong way."
+        },
+        {
+            "start": 140.5,
+            "end": 144.8,
+            "text": " This thing on the top has become visible. He has shifted the layout and the order has been completed."
+        },
+        {
+            "start": 144.8,
+            "end": 147.8,
+            "text": " But if the user wanted to complete the order, he wanted to click on the top."
+        },
+        {
+            "start": 147.8,
+            "end": 149.8,
+            "text": " In this way, the user experience is very bad."
+        },
+        {
+            "start": 149.8,
+            "end": 153.9,
+            "text": " As you have seen in this video, this should not happen. That is why our CLS should be at least."
+        },
+        {
+            "start": 153.9,
+            "end": 155.44,
+            "text": " Now what is the definition of CLS?"
+        },
+        {
+            "start": 155.44,
+            "end": 159.64000000000001,
+            "text": " Cumulative layout shift means how much the page is shifting while loading."
+        },
+        {
+            "start": 159.64000000000001,
+            "end": 163.4,
+            "text": " Assume that you have loaded the page and this is the first thing you get to see."
+        },
+        {
+            "start": 163.4,
+            "end": 168.20000000000002,
+            "text": " This was above and after that, when this load was done, the part of the key term, then it shifted down."
+        },
+        {
+            "start": 168.20000000000002,
+            "end": 172.20000000000002,
+            "text": " The layout should not be shifted. If you put vitoride in images, then the layout should not be shifted."
+        },
+        {
+            "start": 172.20000000000002,
+            "end": 175.20000000000002,
+            "text": " The next metric we are going to talk about is LCP."
+        },
+        {
+            "start": 175.20000000000002,
+            "end": 177.70000000000002,
+            "text": " And LCP stands for Largest Contextual Paint."
+        },
+        {
+            "start": 177.70000000000002,
+            "end": 181.70000000000002,
+            "text": " This means that if a user is viewing a page, then the biggest element is there."
+        },
+        {
+            "start": 181.70000000000002,
+            "end": 185.20000000000002,
+            "text": " For example, the biggest part of this image is loading for how long?"
+        },
+        {
+            "start": 185.26000000000002,
+            "end": 191.26000000000002,
+            "text": " The entire page must be loaded, but the biggest element that is most important is loading for how long?"
+        },
+        {
+            "start": 191.26000000000002,
+            "end": 195.26000000000002,
+            "text": " Web.dev or Google should have a good LCP score of 2.5 seconds."
+        },
+        {
+            "start": 195.26000000000002,
+            "end": 198.26000000000002,
+            "text": " That is, the biggest element of the page should be loaded in 2.5 seconds."
+        },
+        {
+            "start": 198.26000000000002,
+            "end": 203.26000000000002,
+            "text": " After this comes the third metric, FID, which stands for First Input Delay."
+        },
+        {
+            "start": 203.26000000000002,
+            "end": 210.26000000000002,
+            "text": " First input delay means that if a user has clicked on an input element, like on the button or on any type of input given on a page,"
+        },
+        {
+            "start": 210.26000000000002,
+            "end": 212.26000000000002,
+            "text": " then how long does that input process take?"
+        },
+        {
+            "start": 212.32,
+            "end": 216.32,
+            "text": " For example, if you clicked on a button, then how long does that button click browser process?"
+        },
+        {
+            "start": 216.32,
+            "end": 222.32,
+            "text": " And the meaning of Google and Web.dev should start processing your input in less than 100 milliseconds."
+        },
+        {
+            "start": 222.32,
+            "end": 224.32,
+            "text": " So these are the three core web vitals, which are very important."
+        },
+        {
+            "start": 224.32,
+            "end": 228.32,
+            "text": " I will tell you for the information that these are the core web vitals, which are updated as well."
+        },
+        {
+            "start": 228.32,
+            "end": 230.32,
+            "text": " But these three are very important and you should know."
+        },
+        {
+            "start": 230.32,
+            "end": 234.32,
+            "text": " Now I will show you what the Lighthouse Report is and why it is generated."
+        },
+        {
+            "start": 234.32,
+            "end": 237.32,
+            "text": " And how these three core web vitals value will be found there."
+        },
+        {
+            "start": 237.32,
+            "end": 239.32,
+            "text": " So I will tell you here."
+        },
+        {
+            "start": 239.38,
+            "end": 241.38,
+            "text": " You will inspect it by right clicking."
+        },
+        {
+            "start": 241.38,
+            "end": 243.38,
+            "text": " And you can see that it is coming to the right side."
+        },
+        {
+            "start": 243.38,
+            "end": 245.38,
+            "text": " So you can click here and drag it down."
+        },
+        {
+            "start": 245.38,
+            "end": 247.38,
+            "text": " You can bring it back here."
+        },
+        {
+            "start": 247.38,
+            "end": 249.38,
+            "text": " And you can drag it down here."
+        },
+        {
+            "start": 249.38,
+            "end": 251.38,
+            "text": " I prefer to drag it down."
+        },
+        {
+            "start": 251.38,
+            "end": 253.38,
+            "text": " Because it is my habit to see it from the beginning."
+        },
+        {
+            "start": 253.38,
+            "end": 255.38,
+            "text": " Now here you can see the option of Lighthouse."
+        },
+        {
+            "start": 255.38,
+            "end": 257.38,
+            "text": " Lighthouse basically generates a report for you."
+        },
+        {
+            "start": 257.38,
+            "end": 261.38,
+            "text": " And it tells you what can be improved in your HTML page."
+        },
+        {
+            "start": 261.38,
+            "end": 267.38,
+            "text": " For example, if I want to see in the mobile, how the mobile users see my website."
+        },
+        {
+            "start": 267.44,
+            "end": 269.44,
+            "text": " So I will click on the mobile."
+        },
+        {
+            "start": 269.44,
+            "end": 271.44,
+            "text": " Or I will click on the desktop."
+        },
+        {
+            "start": 271.44,
+            "end": 273.44,
+            "text": " I will close this tab."
+        },
+        {
+            "start": 273.44,
+            "end": 275.44,
+            "text": " And I will click on the analyze page load."
+        },
+        {
+            "start": 275.44,
+            "end": 277.44,
+            "text": " So this will generate a report for me in Lighthouse."
+        },
+        {
+            "start": 277.44,
+            "end": 279.44,
+            "text": " You can see here that this report is generated."
+        },
+        {
+            "start": 279.44,
+            "end": 283.44,
+            "text": " Performance, accessibility, best practices, SEO and PWA are all shown here."
+        },
+        {
+            "start": 283.44,
+            "end": 286.44,
+            "text": " Now here you can see that some things are showing here in red."
+        },
+        {
+            "start": 286.44,
+            "end": 288.44,
+            "text": " That is the scope of improvement in the page."
+        },
+        {
+            "start": 288.44,
+            "end": 292.44,
+            "text": " Now here you can see that you should properly size your images."
+        },
+        {
+            "start": 292.44,
+            "end": 294.44,
+            "text": " 2.7 seconds can be loaded to your website."
+        },
+        {
+            "start": 294.44,
+            "end": 298.44,
+            "text": " So all these suggestions are given to you by Lighthouse."
+        },
+        {
+            "start": 298.44,
+            "end": 304.44,
+            "text": " And if you incorporate these suggestions, then your website will be loaded very well."
+        },
+        {
+            "start": 304.44,
+            "end": 306.44,
+            "text": " And the user will have a good experience."
+        },
+        {
+            "start": 306.44,
+            "end": 309.44,
+            "text": " Now you can see here that image elements do not have explicit width and height."
+        },
+        {
+            "start": 309.44,
+            "end": 311.44,
+            "text": " So you should give width and height."
+        },
+        {
+            "start": 311.44,
+            "end": 315.44,
+            "text": " The width and height attribute of the image that we read in the last video should be used."
+        },
+        {
+            "start": 315.44,
+            "end": 318.44,
+            "text": " So that it is reserved in your browser."
+        },
+        {
+            "start": 318.44,
+            "end": 321.44,
+            "text": " When we set width and height in HTML, then it is reserved in this browser."
+        },
+        {
+            "start": 321.44,
+            "end": 328.44,
+            "text": " Otherwise if we do not set height and width, then what will happen is that the browser will not tell us how much space to reserve."
+        },
+        {
+            "start": 328.44,
+            "end": 332.44,
+            "text": " And the longer the CSS load, the lower the page will shift."
+        },
+        {
+            "start": 332.44,
+            "end": 334.44,
+            "text": " So we do not want our page to shift during loading time."
+        },
+        {
+            "start": 334.44,
+            "end": 342.44,
+            "text": " If our page starts shifting, then if we click here, then when it shifts from the mistake, then it can happen that we click here."
+        },
+        {
+            "start": 342.44,
+            "end": 344.44,
+            "text": " Suppose there was going to be an image here."
+        },
+        {
+            "start": 344.44,
+            "end": 345.44,
+            "text": " I am going to click here."
+        },
+        {
+            "start": 345.44,
+            "end": 348.44,
+            "text": " And the longer I clicked here, then this image was loaded."
+        },
+        {
+            "start": 348.44,
+            "end": 350.44,
+            "text": " And all these edges were shifted below."
+        },
+        {
+            "start": 350.44,
+            "end": 352.44,
+            "text": " And instead of clicking here, I will click on the image."
+        },
+        {
+            "start": 352.44,
+            "end": 354.44,
+            "text": " It is called cumulative layout shift."
+        },
+        {
+            "start": 354.44,
+            "end": 358.44,
+            "text": " So this kind of shift is not preferred at all."
+        },
+        {
+            "start": 358.44,
+            "end": 359.44,
+            "text": " Google does not prefer at all."
+        },
+        {
+            "start": 359.44,
+            "end": 360.44,
+            "text": " And this should be at least."
+        },
+        {
+            "start": 360.44,
+            "end": 363.44,
+            "text": " You can see that the space is quite small, cumulative layout shift."
+        },
+        {
+            "start": 363.44,
+            "end": 365.44,
+            "text": " So we have to keep the cumulative layout shift at least."
+        },
+        {
+            "start": 365.44,
+            "end": 367.44,
+            "text": " So that our user can get a very good experience."
+        },
+        {
+            "start": 367.44,
+            "end": 369.44,
+            "text": " So here we get a lot more suggestions."
+        },
+        {
+            "start": 369.44,
+            "end": 371.44,
+            "text": " And this is for our mobile."
+        },
+        {
+            "start": 371.44,
+            "end": 373.44,
+            "text": " Now we can generate desktop reports."
+        },
+        {
+            "start": 373.44,
+            "end": 374.44,
+            "text": " It will generate desktop reports."
+        },
+        {
+            "start": 374.44,
+            "end": 377.44,
+            "text": " So as you can see that it generated a report."
+        },
+        {
+            "start": 377.44,
+            "end": 379.44,
+            "text": " There are 92 marks in performance."
+        },
+        {
+            "start": 379.44,
+            "end": 381.44,
+            "text": " There are 82 marks in accessibility."
+        },
+        {
+            "start": 381.44,
+            "end": 383.44,
+            "text": " 75 in best practices, 75 in SEO, 75 in best practices."
+        },
+        {
+            "start": 383.44,
+            "end": 386.44,
+            "text": " Now here you can see that all the good things are told here."
+        },
+        {
+            "start": 386.44,
+            "end": 388.44,
+            "text": " And the scope of improvements that Lighthouse tells you."
+        },
+        {
+            "start": 388.44,
+            "end": 391.44,
+            "text": " So this is a hidden tool that we all should use."
+        },
+        {
+            "start": 391.44,
+            "end": 394.44,
+            "text": " Now I want to tell you about meta tags and meta descriptions."
+        },
+        {
+            "start": 394.44,
+            "end": 396.44,
+            "text": " So what I will do here is that I will make a new file."
+        },
+        {
+            "start": 396.44,
+            "end": 398.44,
+            "text": " I will name it index.html."
+        },
+        {
+            "start": 398.44,
+            "end": 400.44,
+            "text": " And after making one HTML file,"
+        },
+        {
+            "start": 400.44,
+            "end": 403.44,
+            "text": " the first element I want to tell you is title."
+        },
+        {
+            "start": 403.44,
+            "end": 406.44,
+            "text": " Your title reflects your page content."
+        },
+        {
+            "start": 406.44,
+            "end": 408.44,
+            "text": " If you are doing it, then this is a very good SEO practice."
+        },
+        {
+            "start": 408.44,
+            "end": 410.44,
+            "text": " Whenever your page is changing,"
+        },
+        {
+            "start": 410.44,
+            "end": 413.44,
+            "text": " make the title like this so that it reflects your page content."
+        },
+        {
+            "start": 413.44,
+            "end": 415.44,
+            "text": " Because if you want your website on Google,"
+        },
+        {
+            "start": 415.44,
+            "end": 417.44,
+            "text": " then it will come according to the title."
+        },
+        {
+            "start": 417.44,
+            "end": 420.44,
+            "text": " From the index of Google, you can write code with Harry."
+        },
+        {
+            "start": 420.44,
+            "end": 422.44,
+            "text": " And you write like this."
+        },
+        {
+            "start": 422.44,
+            "end": 424.44,
+            "text": " So this is the title of the page."
+        },
+        {
+            "start": 424.44,
+            "end": 425.44,
+            "text": " And this is the title of the page."
+        },
+        {
+            "start": 425.44,
+            "end": 426.44,
+            "text": " Which is put by YouTube."
+        },
+        {
+            "start": 426.44,
+            "end": 427.44,
+            "text": " This is the title of the page."
+        },
+        {
+            "start": 427.44,
+            "end": 428.44,
+            "text": " Which is put by Instagram."
+        },
+        {
+            "start": 428.44,
+            "end": 429.44,
+            "text": " This is the title of the page."
+        },
+        {
+            "start": 429.44,
+            "end": 430.44,
+            "text": " Which is put by GitHub."
+        },
+        {
+            "start": 430.44,
+            "end": 432.44,
+            "text": " So if the title is put on the page."
+        },
+        {
+            "start": 432.44,
+            "end": 436.44,
+            "text": " And the title reflects your page content."
+        },
+        {
+            "start": 436.44,
+            "end": 440.44,
+            "text": " Truly, then your website will rank very well."
+        },
+        {
+            "start": 440.44,
+            "end": 442.44,
+            "text": " Now consider that I will put the content."
+        },
+        {
+            "start": 442.44,
+            "end": 443.44,
+            "text": " And I will put an H1."
+        },
+        {
+            "start": 443.44,
+            "end": 445.44,
+            "text": " And here I will write Harry."
+        },
+        {
+            "start": 445.44,
+            "end": 448.44,
+            "text": " And after that, I will write a paragraph."
+        },
+        {
+            "start": 448.44,
+            "end": 450.44,
+            "text": " And here I will write Lorem45."
+        },
+        {
+            "start": 450.44,
+            "end": 452.44,
+            "text": " Now why did I write Lorem45?"
+        },
+        {
+            "start": 452.44,
+            "end": 453.44,
+            "text": " I will write the view order."
+        },
+        {
+            "start": 453.44,
+            "end": 454.44,
+            "text": " Why did I write 45?"
+        },
+        {
+            "start": 454.44,
+            "end": 455.44,
+            "text": " This is a very good question."
+        },
+        {
+            "start": 455.44,
+            "end": 458.44,
+            "text": " I wrote 45 because I wrote Alci and 4 and 5."
+        },
+        {
+            "start": 458.44,
+            "end": 460.44,
+            "text": " So I gave 4 and 5."
+        },
+        {
+            "start": 460.44,
+            "end": 462.44,
+            "text": " I also write 23 because they are also around."
+        },
+        {
+            "start": 462.44,
+            "end": 463.44,
+            "text": " So there is no other reason."
+        },
+        {
+            "start": 463.44,
+            "end": 465.44,
+            "text": " Now I will quickly preview it."
+        },
+        {
+            "start": 465.44,
+            "end": 466.44,
+            "text": " Here I will open in browser."
+        },
+        {
+            "start": 466.44,
+            "end": 467.44,
+            "text": " See how it looks."
+        },
+        {
+            "start": 467.44,
+            "end": 468.44,
+            "text": " Now this document is written."
+        },
+        {
+            "start": 468.44,
+            "end": 469.44,
+            "text": " If I leave it like this."
+        },
+        {
+            "start": 469.44,
+            "end": 471.44,
+            "text": " It will not be a good practice."
+        },
+        {
+            "start": 471.44,
+            "end": 474.44,
+            "text": " I will write about Harry."
+        },
+        {
+            "start": 474.44,
+            "end": 475.44,
+            "text": " And here I will write code with Harry."
+        },
+        {
+            "start": 475.44,
+            "end": 476.44,
+            "text": " Which is my website."
+        },
+        {
+            "start": 476.44,
+            "end": 478.44,
+            "text": " And what will happen if I do this?"
+        },
+        {
+            "start": 478.44,
+            "end": 480.44,
+            "text": " That my title will reflect here."
+        },
+        {
+            "start": 480.44,
+            "end": 481.44,
+            "text": " As you can see."
+        },
+        {
+            "start": 481.44,
+            "end": 483.44,
+            "text": " So what will happen if I do this?"
+        },
+        {
+            "start": 483.44,
+            "end": 486.44,
+            "text": " That my website will increase in Google."
+        },
+        {
+            "start": 486.44,
+            "end": 487.44,
+            "text": " I will inspect it."
+        },
+        {
+            "start": 487.44,
+            "end": 489.44,
+            "text": " And I will take out its light house report."
+        },
+        {
+            "start": 489.44,
+            "end": 491.44,
+            "text": " And I will see what is the scope of improvement."
+        },
+        {
+            "start": 491.44,
+            "end": 493.44,
+            "text": " Right now its light house report will be very good."
+        },
+        {
+            "start": 493.44,
+            "end": 495.44,
+            "text": " Because there is no such thing that I should improve."
+        },
+        {
+            "start": 495.44,
+            "end": 497.44,
+            "text": " But when I will put images."
+        },
+        {
+            "start": 497.44,
+            "end": 499.44,
+            "text": " I will get suggestions like put width."
+        },
+        {
+            "start": 499.44,
+            "end": 500.44,
+            "text": " Put height."
+        },
+        {
+            "start": 500.44,
+            "end": 501.44,
+            "text": " Along with that."
+        },
+        {
+            "start": 501.44,
+            "end": 502.44,
+            "text": " I will tell you one more trick."
+        },
+        {
+            "start": 502.44,
+            "end": 507.44,
+            "text": " So that you can know how your website looks in any mobile."
+        },
+        {
+            "start": 507.44,
+            "end": 508.44,
+            "text": " So you click here."
+        },
+        {
+            "start": 508.44,
+            "end": 510.44,
+            "text": " You can see here computer."
+        },
+        {
+            "start": 510.44,
+            "end": 511.44,
+            "text": " Click on it."
+        },
+        {
+            "start": 511.44,
+            "end": 513.44,
+            "text": " And after that if you choose responsive."
+        },
+        {
+            "start": 513.44,
+            "end": 517.44,
+            "text": " You can see how your website looks in any device."
+        },
+        {
+            "start": 517.44,
+            "end": 519.44,
+            "text": " So your website is responsive."
+        },
+        {
+            "start": 519.44,
+            "end": 521.44,
+            "text": " Or you can see it here."
+        },
+        {
+            "start": 521.44,
+            "end": 523.44,
+            "text": " If you go to a specific device."
+        },
+        {
+            "start": 523.44,
+            "end": 524.44,
+            "text": " It is iPhone 12 Pro."
+        },
+        {
+            "start": 524.44,
+            "end": 526.44,
+            "text": " Your website is iPhone 12 Pro."
+        },
+        {
+            "start": 526.44,
+            "end": 528.44,
+            "text": " Resolution will look something like this."
+        },
+        {
+            "start": 528.44,
+            "end": 530.44,
+            "text": " Now don't say why it is not 15."
+        },
+        {
+            "start": 530.44,
+            "end": 531.44,
+            "text": " Why it is not 16."
+        },
+        {
+            "start": 531.44,
+            "end": 533.44,
+            "text": " 12 Pro means big iPhone device."
+        },
+        {
+            "start": 533.44,
+            "end": 534.44,
+            "text": " Understand."
+        },
+        {
+            "start": 534.44,
+            "end": 535.44,
+            "text": " In such a big device."
+        },
+        {
+            "start": 535.44,
+            "end": 536.44,
+            "text": " In such a big device."
+        },
+        {
+            "start": 536.44,
+            "end": 538.44,
+            "text": " How your website will look."
+        },
+        {
+            "start": 538.44,
+            "end": 540.44,
+            "text": " It is simply being told to you."
+        },
+        {
+            "start": 540.44,
+            "end": 542.44,
+            "text": " So now you can see."
+        },
+        {
+            "start": 542.44,
+            "end": 544.44,
+            "text": " How it will look in Surface Pro 7."
+        },
+        {
+            "start": 544.44,
+            "end": 545.44,
+            "text": " Click here."
+        },
+        {
+            "start": 545.44,
+            "end": 547.44,
+            "text": " How it will look in Google phones."
+        },
+        {
+            "start": 547.44,
+            "end": 548.44,
+            "text": " You can also know this."
+        },
+        {
+            "start": 548.44,
+            "end": 551.44,
+            "text": " And if you want to take a general view."
+        },
+        {
+            "start": 551.44,
+            "end": 554.44,
+            "text": " In my website responsive device."
+        },
+        {
+            "start": 554.44,
+            "end": 555.44,
+            "text": " In any kind of device."
+        },
+        {
+            "start": 555.44,
+            "end": 556.44,
+            "text": " Suppose in iPad."
+        },
+        {
+            "start": 556.44,
+            "end": 557.44,
+            "text": " How it will look."
+        },
+        {
+            "start": 557.44,
+            "end": 558.44,
+            "text": " If you don't have a device here."
+        },
+        {
+            "start": 558.44,
+            "end": 559.44,
+            "text": " So you choose responsive."
+        },
+        {
+            "start": 559.44,
+            "end": 561.44,
+            "text": " Take out your device approximate bit."
+        },
+        {
+            "start": 561.44,
+            "end": 563.44,
+            "text": " You will get all the bit free devices."
+        },
+        {
+            "start": 563.44,
+            "end": 564.44,
+            "text": " Your website should look good."
+        },
+        {
+            "start": 564.44,
+            "end": 565.44,
+            "text": " How it will look."
+        },
+        {
+            "start": 565.44,
+            "end": 567.44,
+            "text": " I will also tell you this in this course."
+        },
+        {
+            "start": 567.44,
+            "end": 568.44,
+            "text": " Now you click here again."
+        },
+        {
+            "start": 568.44,
+            "end": 569.44,
+            "text": " So it closes."
+        },
+        {
+            "start": 569.44,
+            "end": 571.44,
+            "text": " The responsive view closes."
+        },
+        {
+            "start": 571.44,
+            "end": 572.44,
+            "text": " And as it closes."
+        },
+        {
+            "start": 572.44,
+            "end": 573.44,
+            "text": " Your website looks like this."
+        },
+        {
+            "start": 573.44,
+            "end": 574.44,
+            "text": " I will close it."
+        },
+        {
+            "start": 574.44,
+            "end": 575.44,
+            "text": " I will close it."
+        },
+        {
+            "start": 575.44,
+            "end": 576.44,
+            "text": " I will come back here."
+        },
+        {
+            "start": 576.44,
+            "end": 578.44,
+            "text": " Now I will tell you about meta text."
+        },
+        {
+            "start": 578.44,
+            "end": 580.44,
+            "text": " Here as I will write meta."
+        },
+        {
+            "start": 580.44,
+            "end": 582.44,
+            "text": " Look here meta D E S C is coming."
+        },
+        {
+            "start": 582.44,
+            "end": 583.44,
+            "text": " I will click on meta D E S C."
+        },
+        {
+            "start": 583.44,
+            "end": 585.44,
+            "text": " And here I can give my page description."
+        },
+        {
+            "start": 585.44,
+            "end": 586.44,
+            "text": " Suppose I give."
+        },
+        {
+            "start": 586.44,
+            "end": 588.44,
+            "text": " This is the page."
+        },
+        {
+            "start": 588.44,
+            "end": 589.44,
+            "text": " This is a page about."
+        },
+        {
+            "start": 589.44,
+            "end": 591.44,
+            "text": " This is a page which contains."
+        },
+        {
+            "start": 591.44,
+            "end": 593.44,
+            "text": " Description."
+        },
+        {
+            "start": 593.44,
+            "end": 594.44,
+            "text": " About."
+        },
+        {
+            "start": 594.44,
+            "end": 596.44,
+            "text": " Harry."
+        },
+        {
+            "start": 596.44,
+            "end": 597.44,
+            "text": " Okay."
+        },
+        {
+            "start": 597.44,
+            "end": 599.44,
+            "text": " And here you write your page content."
+        },
+        {
+            "start": 599.44,
+            "end": 600.44,
+            "text": " Whatever you want."
+        },
+        {
+            "start": 600.44,
+            "end": 601.44,
+            "text": " Let me show you."
+        },
+        {
+            "start": 601.44,
+            "end": 602.44,
+            "text": " Suppose you write."
+        },
+        {
+            "start": 602.44,
+            "end": 603.44,
+            "text": " What is SEO."
+        },
+        {
+            "start": 603.44,
+            "end": 604.44,
+            "text": " What is SEO."
+        },
+        {
+            "start": 604.44,
+            "end": 605.44,
+            "text": " You have written."
+        },
+        {
+            "start": 605.44,
+            "end": 606.44,
+            "text": " Look here."
+        },
+        {
+            "start": 606.44,
+            "end": 607.44,
+            "text": " This page has put this meta description."
+        },
+        {
+            "start": 607.44,
+            "end": 609.44,
+            "text": " SEO stands for this in simple terms."
+        },
+        {
+            "start": 609.44,
+            "end": 612.44,
+            "text": " Now it is not necessary that a search engine will pass your meta D E S C."
+        },
+        {
+            "start": 612.44,
+            "end": 613.44,
+            "text": " It will not."
+        },
+        {
+            "start": 613.44,
+            "end": 614.44,
+            "text": " If it feels good."
+        },
+        {
+            "start": 614.44,
+            "end": 616.44,
+            "text": " Then it will pass and keep your meta D E S C here."
+        },
+        {
+            "start": 616.44,
+            "end": 618.44,
+            "text": " If you have not put meta D E S C."
+        },
+        {
+            "start": 618.44,
+            "end": 620.44,
+            "text": " Then it can be generated from your content."
+        },
+        {
+            "start": 620.44,
+            "end": 621.44,
+            "text": " Meta D E S C."
+        },
+        {
+            "start": 621.44,
+            "end": 622.44,
+            "text": " So this is the responsibility of a search engine."
+        },
+        {
+            "start": 622.44,
+            "end": 623.44,
+            "text": " What will Bing do."
+        },
+        {
+            "start": 623.44,
+            "end": 624.44,
+            "text": " What will Google do."
+        },
+        {
+            "start": 624.44,
+            "end": 625.44,
+            "text": " We don't know."
+        },
+        {
+            "start": 625.44,
+            "end": 626.44,
+            "text": " But on our side."
+        },
+        {
+            "start": 626.44,
+            "end": 628.44,
+            "text": " Our page should be exactly to the point."
+        },
+        {
+            "start": 628.44,
+            "end": 629.44,
+            "text": " Especially if we are writing a blog."
+        },
+        {
+            "start": 629.44,
+            "end": 631.44,
+            "text": " And we want our organically ranked page."
+        },
+        {
+            "start": 631.44,
+            "end": 633.44,
+            "text": " So here you can see that."
+        },
+        {
+            "start": 633.44,
+            "end": 634.44,
+            "text": " Meta D E S C."
+        },
+        {
+            "start": 634.44,
+            "end": 635.44,
+            "text": " I have put."
+        },
+        {
+            "start": 635.44,
+            "end": 637.44,
+            "text": " Now a meta keyword used to be very popular."
+        },
+        {
+            "start": 637.44,
+            "end": 639.44,
+            "text": " But now the meta keyword."
+        },
+        {
+            "start": 639.44,
+            "end": 641.44,
+            "text": " It has been deprecated."
+        },
+        {
+            "start": 641.44,
+            "end": 643.44,
+            "text": " Meta keyword is not used at all."
+        },
+        {
+            "start": 643.44,
+            "end": 645.44,
+            "text": " Meta keyword code looks like this."
+        },
+        {
+            "start": 645.44,
+            "end": 646.44,
+            "text": " But it is believed that."
+        },
+        {
+            "start": 646.44,
+            "end": 649.44,
+            "text": " Meta keyword does not rank in SEO."
+        },
+        {
+            "start": 649.44,
+            "end": 650.44,
+            "text": " Because people abuse it more."
+        },
+        {
+            "start": 650.44,
+            "end": 652.44,
+            "text": " Suppose you have written a page about pets."
+        },
+        {
+            "start": 652.44,
+            "end": 653.44,
+            "text": " And you have written."
+        },
+        {
+            "start": 653.44,
+            "end": 654.44,
+            "text": " What is SEO."
+        },
+        {
+            "start": 654.44,
+            "end": 655.44,
+            "text": " Meta keyword."
+        },
+        {
+            "start": 655.44,
+            "end": 657.44,
+            "text": " So it is not that your page will rank."
+        },
+        {
+            "start": 657.44,
+            "end": 659.44,
+            "text": " I will fix this double code."
+        },
+        {
+            "start": 659.44,
+            "end": 660.44,
+            "text": " If I put meta keyword here."
+        },
+        {
+            "start": 660.44,
+            "end": 661.44,
+            "text": " So it is not necessary that."
+        },
+        {
+            "start": 661.44,
+            "end": 663.44,
+            "text": " Search engine will consider it."
+        },
+        {
+            "start": 663.44,
+            "end": 664.44,
+            "text": " Some search engines."
+        },
+        {
+            "start": 664.44,
+            "end": 665.44,
+            "text": " They don't believe meta keywords."
+        },
+        {
+            "start": 665.44,
+            "end": 666.44,
+            "text": " They say."
+        },
+        {
+            "start": 666.44,
+            "end": 667.44,
+            "text": " We don't want to see your meta keywords."
+        },
+        {
+            "start": 667.44,
+            "end": 668.44,
+            "text": " Don't put it."
+        },
+        {
+            "start": 668.44,
+            "end": 669.44,
+            "text": " Meta keywords used to be very popular."
+        },
+        {
+            "start": 669.44,
+            "end": 670.44,
+            "text": " But now it is not."
+        },
+        {
+            "start": 670.44,
+            "end": 672.44,
+            "text": " Now the content of your page is passed."
+        },
+        {
+            "start": 672.44,
+            "end": 673.44,
+            "text": " And now the time of AI is coming."
+        },
+        {
+            "start": 673.44,
+            "end": 674.44,
+            "text": " Especially more."
+        },
+        {
+            "start": 674.44,
+            "end": 676.44,
+            "text": " You will be able to understand the content."
+        },
+        {
+            "start": 676.44,
+            "end": 677.44,
+            "text": " What is the value of your content."
+        },
+        {
+            "start": 677.44,
+            "end": 678.44,
+            "text": " You will be able to understand it."
+        },
+        {
+            "start": 678.44,
+            "end": 679.44,
+            "text": " It will be ranked accordingly."
+        },
+        {
+            "start": 679.44,
+            "end": 680.44,
+            "text": " Now if you want to know."
+        },
+        {
+            "start": 680.44,
+            "end": 682.44,
+            "text": " Exactly about these core web vitals."
+        },
+        {
+            "start": 682.44,
+            "end": 683.44,
+            "text": " For example."
+        },
+        {
+            "start": 683.44,
+            "end": 685.44,
+            "text": " If I inspect right click."
+        },
+        {
+            "start": 685.44,
+            "end": 686.44,
+            "text": " And go to the lighthouse."
+        },
+        {
+            "start": 686.44,
+            "end": 688.44,
+            "text": " And take out the lighthouse report for desktop."
+        },
+        {
+            "start": 688.44,
+            "end": 690.44,
+            "text": " So some core web vitals come."
+        },
+        {
+            "start": 690.44,
+            "end": 691.44,
+            "text": " For example."
+        },
+        {
+            "start": 691.44,
+            "end": 692.44,
+            "text": " LCP comes."
+        },
+        {
+            "start": 692.44,
+            "end": 693.44,
+            "text": " After that."
+        },
+        {
+            "start": 693.44,
+            "end": 694.44,
+            "text": " FCP comes."
+        },
+        {
+            "start": 694.44,
+            "end": 695.44,
+            "text": " First contextual paint."
+        },
+        {
+            "start": 695.44,
+            "end": 696.44,
+            "text": " Now you can see here."
+        },
+        {
+            "start": 696.44,
+            "end": 697.44,
+            "text": " Everything is 100."
+        },
+        {
+            "start": 697.44,
+            "end": 698.44,
+            "text": " Look here."
+        },
+        {
+            "start": 698.44,
+            "end": 699.44,
+            "text": " There was nothing in this content."
+        },
+        {
+            "start": 699.44,
+            "end": 701.44,
+            "text": " But here you can see that."
+        },
+        {
+            "start": 701.44,
+            "end": 702.44,
+            "text": " What are you doing."
+        },
+        {
+            "start": 702.44,
+            "end": 704.44,
+            "text": " Pages with web socket cannot enter."
+        },
+        {
+            "start": 704.44,
+            "end": 705.44,
+            "text": " Back forward cache."
+        },
+        {
+            "start": 705.44,
+            "end": 706.44,
+            "text": " There is a web socket."
+        },
+        {
+            "start": 706.44,
+            "end": 708.44,
+            "text": " Because we are using this extension."
+        },
+        {
+            "start": 708.44,
+            "end": 709.44,
+            "text": " Live preview."
+        },
+        {
+            "start": 709.44,
+            "end": 710.44,
+            "text": " Otherwise it is absolutely right."
+        },
+        {
+            "start": 710.44,
+            "end": 711.44,
+            "text": " Accessibility is also 100."
+        },
+        {
+            "start": 711.44,
+            "end": 712.44,
+            "text": " Everything is 100."
+        },
+        {
+            "start": 712.44,
+            "end": 713.44,
+            "text": " It is a very good page."
+        },
+        {
+            "start": 713.44,
+            "end": 715.44,
+            "text": " PWA is progressive web apps."
+        },
+        {
+            "start": 715.44,
+            "end": 716.44,
+            "text": " Which we will not make yet."
+        },
+        {
+            "start": 716.44,
+            "end": 717.44,
+            "text": " But you see here."
+        },
+        {
+            "start": 717.44,
+            "end": 718.44,
+            "text": " First contextual paint."
+        },
+        {
+            "start": 718.44,
+            "end": 719.44,
+            "text": " Largest contextual paint."
+        },
+        {
+            "start": 719.44,
+            "end": 720.44,
+            "text": " Total blocking time."
+        },
+        {
+            "start": 720.44,
+            "end": 721.44,
+            "text": " Cumulative layout."
+        },
+        {
+            "start": 721.44,
+            "end": 722.44,
+            "text": " Speed index."
+        },
+        {
+            "start": 722.44,
+            "end": 724.44,
+            "text": " If you want to know about all this."
+        },
+        {
+            "start": 724.44,
+            "end": 725.44,
+            "text": " What is the first contextual paint."
+        },
+        {
+            "start": 725.44,
+            "end": 727.44,
+            "text": " The user who is going to see."
+        },
+        {
+            "start": 727.44,
+            "end": 729.44,
+            "text": " How long it has been painted on the browser."
+        },
+        {
+            "start": 729.44,
+            "end": 730.44,
+            "text": " So if you want to see this."
+        },
+        {
+            "start": 730.44,
+            "end": 732.44,
+            "text": " You have to go to web.dev."
+        },
+        {
+            "start": 732.44,
+            "end": 734.44,
+            "text": " Web.dev is a very good website."
+        },
+        {
+            "start": 734.44,
+            "end": 736.44,
+            "text": " It talks about all these things."
+        },
+        {
+            "start": 736.44,
+            "end": 737.44,
+            "text": " And you can see here."
+        },
+        {
+            "start": 737.44,
+            "end": 739.44,
+            "text": " Keep talking about this."
+        },
+        {
+            "start": 739.44,
+            "end": 740.44,
+            "text": " You can learn here."
+        },
+        {
+            "start": 740.44,
+            "end": 742.44,
+            "text": " What are these things about."
+        },
+        {
+            "start": 742.44,
+            "end": 743.44,
+            "text": " What is it."
+        },
+        {
+            "start": 743.44,
+            "end": 744.44,
+            "text": " If you want to learn PWA."
+        },
+        {
+            "start": 744.44,
+            "end": 745.44,
+            "text": " You can learn PWA."
+        },
+        {
+            "start": 745.44,
+            "end": 746.44,
+            "text": " All these things."
+        },
+        {
+            "start": 746.44,
+            "end": 749.44,
+            "text": " There is a lot of good content here."
+        },
+        {
+            "start": 749.44,
+            "end": 750.44,
+            "text": " But within this course."
+        },
+        {
+            "start": 750.44,
+            "end": 751.44,
+            "text": " Httml CSS JavaScript."
+        },
+        {
+            "start": 751.44,
+            "end": 753.44,
+            "text": " We will focus on making websites."
+        },
+        {
+            "start": 753.44,
+            "end": 754.44,
+            "text": " According to me."
+        },
+        {
+            "start": 754.44,
+            "end": 755.44,
+            "text": " You should have come."
+        },
+        {
+            "start": 755.44,
+            "end": 756.44,
+            "text": " Because of which."
+        },
+        {
+            "start": 756.44,
+            "end": 757.44,
+            "text": " I told you about it."
+        },
+        {
+            "start": 757.44,
+            "end": 758.44,
+            "text": " If you have not yet."
+        },
+        {
+            "start": 758.44,
+            "end": 760.44,
+            "text": " Accessed the Sigma web development series."
+        },
+        {
+            "start": 760.44,
+            "end": 762.44,
+            "text": " So do access it."
+        },
+        {
+            "start": 762.44,
+            "end": 763.44,
+            "text": " Access the playlist."
+        },
+        {
+            "start": 763.44,
+            "end": 764.44,
+            "text": " Bookmark it."
+        },
+        {
+            "start": 764.44,
+            "end": 765.44,
+            "text": " Click here."
+        },
+        {
+            "start": 765.44,
+            "end": 767.44,
+            "text": " Save it here."
+        },
+        {
+            "start": 767.44,
+            "end": 768.44,
+            "text": " That's all for now."
+        },
+        {
+            "start": 768.44,
+            "end": 769.44,
+            "text": " Thank you so much."
+        },
+        {
+            "start": 769.44,
+            "end": 770.44,
+            "text": " For watching this video."
+        },
+        {
+            "start": 770.44,
+            "end": 772.44,
+            "text": " And I will see you next time."
+        },
+        {
+            "start": 775.44,
+            "end": 776.44,
+            "text": " Bye."
+        }
+    ]
+}

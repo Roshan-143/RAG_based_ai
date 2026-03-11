@@ -1,0 +1,23 @@
+
+I am learning web development using Sigma Web Development course.
+
+These are subtitle chunks from the course videos:
+
+                       title number  start    end                                                                                                                                                                                                                                                                                                                                                                                                              text
+Video, Audio & Media in HTML     10   0.00  25.48  In today's video, we will learn how to use audio, video, and media elements in HTML.  We have seen in our very first video that we can embed videos in HTML.  Today, I will tell you how to play the video auto.  How to keep muted videos and how you can enable and disable the controls of the video.  Along with that, we will also see a lot of the audio that can be seen in an overall page of the media.
+     Your First HTML Website      2  36.62  51.42                                                                                                 You guys are excited, right?  Write in the comments. I am excited.  And I will hurt all those comments that I am excited to write in the comments.  In this video, we will learn to link an HTML website with CSS and JavaScript.  Along with that, in this video, I am going to give you guys notes, cheatsheets
+Video, Audio & Media in HTML     10  56.72  81.72                                How to play the video, how to add a video in an HTML file, how to add audio, how to add media.  So adding a video is very straightforward.  I will copy it here, which is our video tag.  It has an SRC attribute and it has some other attributes about which I will discuss with you.  But first of all, I would like to tell you that video SRC is equal to what you have here.
+Video, Audio & Media in HTML     10 785.96 796.96                                                                                                                                                                                                                                                                      I will show you the document.  See this video is embedded here.  Okay.  So I hope you understood this.  And media is only this much in HTML.
+Video, Audio & Media in HTML     10 796.96 803.96                                                                                                                                                                                                                                                                                      Pretty much.  You will get to see a lot of things in every topic.  But pretty much.  That's all about media.  In HTML audio.
+
+------------------------------------------------
+
+User Question: "how to add media in html file, where is this topic taught in this course"
+
+Instructions:
+1. Tell in which video the topic is explained.
+2. Mention all timestamps clearly.
+3. If multiple chunks belong to the same video, combine them.
+4. Guide the user where to watch.
+
+If the question is unrelated, say you can only answer questions related to the course videos.
